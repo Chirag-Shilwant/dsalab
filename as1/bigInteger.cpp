@@ -1,11 +1,8 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <climits>
 #include <iomanip>
-#include <cmath>
-#include <algorithm>
 using namespace std;
-
-typedef long long int ll;
+using ll = long long;
 #define deb(x) cout << #x << " " << x << endl;
 #define debtwo(x,y) cout << #x << " " << x << ", " << #y << " " << y << endl;
 #define debarr(arr) for (auto i : arr) cout << i; cout << endl;
@@ -274,7 +271,7 @@ string gcd(string a, string b) {
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
-
+	cout.tie(0);
 	int choice, q;
 	string a, b;
 
